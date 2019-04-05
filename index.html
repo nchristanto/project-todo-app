@@ -8,49 +8,19 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="to-do-light">
-        <div class="to-do-header">
-          <h1 class="header-title">Hello, username</h1>
-          <p class="header-subtitle">Today you have 3 things to do</p>
-        </div>
-        <div class="header-add">
-          <i class="plus-btn"></i>
-        </div>
-      </div>
+    <div class="header">
+      <h2>My Todo</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="add-btn">Add</span>
     </div>
-    <div class="calender-upcoming">
-      <p class="cu-title">Upcoming to do</p>
-      <div class="todo-item">
-        <div class="todo-dot-active"></div>
-        <div class="item-category">Personal</div>
-        <div class="item-title">10:30 am</div>
-        <div class="item-todo">Laundry</div>
-      </div>
-      <div class="second-todoitem">
-        <div class="todo-dot-not-active"></div>
-        <div class="item-category">Shop</div>
-        <div class="item-title">11:30</div>
-        <div class="item-todo">Beli Indomie</div>
-      </div>
-      <div class="third-todoitem">
-        <div class="todo-dot-not-active"></div>
-        <div class="item-category">Personal</div>
-        <div class="item-title">12:00</div>
-        <div class="item-todo">Makan</div>
-      </div>
-      <div class="fourth-todoitem">
-        <div class="todo-dot-not-active"></div>
-        <div class="item-category">Work</div>
-        <div class="item-title">13:00</div>
-        <div class="item-todo">Code</div>
-      </div>
-      <div class="fifth-todoitem">
-        <div class="todo-dot-not-active"></div>
-        <div class="item-category">Add Category</div>
-        <div class="item-title">Add Time</div>
-        <div class="item-todo">Add Todo</div>
-      </div>
-    </div>
+
+    <ul id="my-ul-todo" class="my-ul-todo">
+      <li>Laundry</li>
+      <li>Beli indomie</li>
+      <li>Beli kopi</li>
+      <li>Coding</li>
+      <li>Sleep</li>
+      <li>Repeat</li>
+    </ul>
   </body>
 </html>
