@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 480px; 
+  height: 720px;
+}
+
 ul {
   margin: 0; 
   padding: 0; 
@@ -61,12 +66,12 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336; 
+  background-color: #1BA1F2; 
   color: white; 
 }
 
 .header {
-  background-color: #f44336; 
+  background-color: #1BA1F2; 
   padding: 30px 40px; 
   color: white; 
   text-align: center; 
