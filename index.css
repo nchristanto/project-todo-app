@@ -27,6 +27,15 @@ ul li {
   user-select: none; 
 }
 
+.header div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+
+
 /* odd items to different color */
 ul li:nth-child(odd) {
   background: #f9f9f9; 
