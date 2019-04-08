@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Barlow, sans-serif;
+}
+
 html {
   width: 480px; 
   height: 720px;
@@ -26,6 +30,32 @@ ul li {
   -ms-user-select: none; 
   user-select: none; 
 }
+
+/* navigation */
+.topnav {
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left; 
+  display: block; 
+  color: #f2f2f2;
+  padding: 14px 16px; 
+}
+
+.topnav a icon {
+  background: black; 
+  display: block; 
+  position: absolute;
+  right: 0; 
+  top: 0; 
+}
+
+
 
 .header div {
   width: 35px;
